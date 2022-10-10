@@ -15,8 +15,9 @@ def getr(P, A, n):
     """ Function to obtain rate of interest """
     x = xInitial
     for i in range(niter):
-        print(i, end="  ")
-        print(x)
+        # Uncomment this to print out intermmediate values
+        # print(i, end="  ")
+        # print(x)
         numer = P*x**(n+1.0)-x**n*(A+P)+A
         denom = (n+1.0)*P*x**n-(A+P)*n*x**(n-1)
         x = x - numer/denom
