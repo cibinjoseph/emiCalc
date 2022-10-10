@@ -40,4 +40,5 @@ print("Amount, A: " + str(A))
 
 # Finding rate from P, A and n alone
 rOut = getr(P, A, n)
+print()
 print("Computed rate: " + str(rOut))
