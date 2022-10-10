@@ -3,7 +3,7 @@
 niter = 15
 
 # Set initial approx. rate of interest (should be greater than 1.0)
-xInitial = 1.10
+xInitial = 1.30
 
 def getA(P, r, n):
     """ Function to return amount """
