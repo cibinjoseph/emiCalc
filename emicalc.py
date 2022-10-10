@@ -17,9 +17,8 @@ def getr(P, A, n):
     # The following loop implements Newton's method of solving
     # non-linear equations
     for i in range(niter):
-        # Uncomment this to print out intermmediate values
-        # print(i, end="  ")
-        # print(x)
+        # Uncomment the below line to print out intermmediate values
+        # print(str(i) + "  " + str(x))
         numer = P*x**(n+1.0)-x**n*(A+P)+A
         denom = (n+1.0)*P*x**n-(A+P)*n*x**(n-1)
         x = x - numer/denom
