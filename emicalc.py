@@ -1,5 +1,5 @@
 
-# Set no. of iterations
+# Set no. of iterations (a value greater than 10 is sufficient)
 niter = 15
 
 # Set initial approx. rate of interest (should be greater than 1.0)
@@ -24,13 +24,16 @@ def getr(P, A, n):
 
     return x-1.0
 
-# Sample problem
+
+# SAMPLE PROBLEM
 P = 10000.0
 r = 0.16
 n = 2.0
+
+# Finding amount from given values
 A = getA(P, r, n)
 print("Amount: " + str(A))
 
+# Finding rate from P, A and n alone
 rOut = getr(P, A, n)
 print("Computed rate: " + str(rOut))
-
