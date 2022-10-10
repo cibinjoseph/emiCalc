@@ -14,6 +14,8 @@ def getA(P, r, n):
 def getr(P, A, n):
     """ Function to obtain rate of interest """
     x = xInitial
+    # The following loop implements Newton's method of solving
+    # non-linear equations
     for i in range(niter):
         # Uncomment this to print out intermmediate values
         # print(i, end="  ")
