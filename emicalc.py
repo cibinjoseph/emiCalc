@@ -1,9 +1,9 @@
 
-# Set no. of iterations (a value greater than 10 is sufficient)
-niter = 15
+# Set no. of iterations (around 20 is sufficient)
+niter = 20
 
 # Set initial approx. rate of interest (should be greater than 1.0)
-xInitial = 1.30
+xInitial = 1.5
 
 def getA(P, r, n):
     """ Function to return amount """
