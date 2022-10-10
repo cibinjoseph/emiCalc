@@ -2,7 +2,7 @@
 # Set no. of iterations
 niter = 15
 
-# Set initial approx. rate of interest
+# Set initial approx. rate of interest (should be greater than 1.0)
 xInitial = 1.10
 
 def getA(P, r, n):
