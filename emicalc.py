@@ -33,7 +33,10 @@ n = 2.0
 
 # Finding amount from given values
 A = getA(P, r, n)
-print("Amount: " + str(A))
+print("Principal, P: " + str(P))
+print("rate, r: " + str(r))
+print("term, n: " + str(n))
+print("Amount, A: " + str(A))
 
 # Finding rate from P, A and n alone
 rOut = getr(P, A, n)
